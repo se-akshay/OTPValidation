@@ -1,24 +1,33 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# OTP Validation
 
-node_modules
-dist
-dist-ssr
-*.local
+Description
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+This project is a simple OTP (One-Time Password) validation UI built with React. It provides an intuitive and interactive way for users to enter OTP codes.
+
+# Features
+
+Supports a customizable number of OTP digits.
+
+Automatically moves focus to the next input field.
+
+Deletes input and moves focus back on Backspace.
+
+Styled for a clean and modern user experience.
+
+# Usage
+
+Enter the OTP digit-by-digit.
+
+The focus will automatically move to the next input field.
+
+Press Backspace to delete the current digit or move back to the previous field.
+
+Use the OTP input field to validate user authentication.
+
+# Technologies Used
+
+React.js
+
+CSS
+
+useState, useRef, useEffect
